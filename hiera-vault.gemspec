@@ -2,13 +2,13 @@ require 'rubygems'
 require 'rubygems/package_task'
 
 spec = Gem::Specification.new do |gem|
-    gem.name = "hiera-vault"
+    gem.name = "hiera-vault-less-noise"
     gem.version = "0.3.0"
     gem.license = "Apache-2.0"
     gem.summary = "Module for using vault as a hiera backend"
     gem.email = "jonathan.sokolowski@gmail.com"
     gem.author = "Jonathan Sokolowski"
-    gem.homepage = "http://github.com/jsok/hiera-vault"
+    gem.homepage = "http://github.com/tylerjl/hiera-vault"
     gem.description = "Hiera backend for looking up secrets stored in Vault"
     gem.require_path = "lib"
     gem.files = FileList["lib/**/*"].to_a
